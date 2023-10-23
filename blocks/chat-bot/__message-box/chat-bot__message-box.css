@@ -1,0 +1,6 @@
+.chat-bot__message-box {
+  grid-area: messageBox;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: rgb(245, 248, 250);
+}

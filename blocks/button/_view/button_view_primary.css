@@ -1,0 +1,10 @@
+.button_view_primary {
+  color: #344563;
+  background-color: #091E4214;
+  transition: background-color .3s ease;
+}
+
+.button_view_primary:hover,
+.button_view_primary:focus-visible {
+  background-color: #091E4221;
+}

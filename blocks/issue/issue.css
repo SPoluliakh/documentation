@@ -1,0 +1,7 @@
+.issue {
+  display: grid;
+  grid-template-columns: 1fr 35%;
+  gap: 30px;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}

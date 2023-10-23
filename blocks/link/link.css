@@ -1,0 +1,11 @@
+.link {
+  font-family: inherit;
+  font-size: 14px;
+  color: #0052CC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

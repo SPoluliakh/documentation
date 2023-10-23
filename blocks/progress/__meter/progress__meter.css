@@ -1,0 +1,12 @@
+.progress__meter {
+  width: 100%;
+  height: 10px;
+  margin: 0;
+  background-color: #ccc;
+}
+
+.progress__meter span {
+  height: 100%;
+  display: block;
+  background-color: #51A825;
+}

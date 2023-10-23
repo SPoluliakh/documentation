@@ -1,0 +1,19 @@
+.sidebar__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color:#344563;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.sidebar__button:hover {
+  background-color: #091E4221;
+}
+  

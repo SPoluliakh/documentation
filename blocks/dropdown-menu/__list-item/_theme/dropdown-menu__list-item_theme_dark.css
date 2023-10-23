@@ -1,0 +1,9 @@
+.dropdown-menu__list-item_theme_dark {
+  padding: 3px 10px;
+}
+
+.dropdown-menu__list-item_theme_dark:hover,
+.dropdown-menu__list-item_theme_dark:focus-visible {
+  color: #fff;
+  background-color: #40331e;
+}

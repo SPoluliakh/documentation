@@ -1,0 +1,11 @@
+.theory__footer {
+  width: calc((100% - 63px) / 2);
+  margin: 0 auto;
+  padding: 40px 0 120px;
+}
+
+@media screen and (max-width: 2000px) {
+  .theory__footer {
+    width: calc((100% - 63px) * .7);
+  }
+}

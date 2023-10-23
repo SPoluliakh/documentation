@@ -1,0 +1,9 @@
+.chat-bot__message-group_type_user {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 235px;
+  margin-top: 16px;
+  margin-left: auto;
+}

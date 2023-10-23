@@ -1,0 +1,12 @@
+.attachment__title {
+  max-width: 170px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  /* TODO: Title is actually a link, remove style when finished */
+  color: #0052cc;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

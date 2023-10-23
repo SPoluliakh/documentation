@@ -1,0 +1,8 @@
+.progress {
+  grid-area: progress;
+  align-self: center;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  flex-grow: 1;
+}

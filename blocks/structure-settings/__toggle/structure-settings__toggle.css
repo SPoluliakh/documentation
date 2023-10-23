@@ -1,0 +1,4 @@
+.structure-settings__toggle:checked ~ #structure-settings-modal {
+	visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,7 @@
+.dropdown-menu__list-item_theme_light {
+  padding: 10px;
+}
+
+.dropdown-menu__list-item_theme_light:hover {
+  background-color: #091E4214;
+}

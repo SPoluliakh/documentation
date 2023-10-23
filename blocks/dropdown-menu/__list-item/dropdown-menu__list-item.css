@@ -1,0 +1,8 @@
+.dropdown-menu__list-item {
+  color: #425263;
+  font-size: 14px;
+  line-height: 1.8;
+  outline: none;
+  cursor: pointer;
+  white-space: nowrap;
+}

@@ -1,0 +1,9 @@
+.todo__filters {
+  grid-area: todo-filters;
+  display: none;
+}
+
+#todo-filters:checked ~ .todo__filters {
+	display: flex;
+  justify-content: space-around;
+}

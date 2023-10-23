@@ -1,0 +1,20 @@
+.attachment__delete-button {
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background: url(../../../images/delete-icon.svg) no-repeat 50%;
+  background-size: contain;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity .3s;
+  z-index: 1;
+}
+
+.attachment:hover .attachment__delete-button {
+  opacity: 1;
+}

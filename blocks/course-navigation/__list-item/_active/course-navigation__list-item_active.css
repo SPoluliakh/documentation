@@ -1,0 +1,6 @@
+.course-navigation__list-item_active {
+  border-left: 2px solid #172B4D;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgba(0, 0, 0, 0.06);
+}

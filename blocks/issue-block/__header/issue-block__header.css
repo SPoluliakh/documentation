@@ -1,0 +1,5 @@
+.issue-block__header {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+.chat-bot__body {
+  padding-top: 14px;
+  max-height: 400px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page Prototype</title>
+</head>
+
+<body class="page">
+    <div class="page__container">
+        <a class="link" href="/lesson-1.html" style="margin: 20px 0 0 20px;">To simulator</a>
+        <header class="header">
+            <a class="header__logo" href="#"></a>
+            <div class="header__content">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link link" href="#">WOW - 1.0</a>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link link" href="#">WOW1-00001</a>
+                    </li>
+                </ul>
+                <h1 class="header__title">1.0.1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+            </div>
+        </header>
+        <div class="controls">
+            <div class="controls__inner-container">
+                <!-- TODO: fill all aria-labels -->
+                <button class="button button_view_primary" type="button" aria-label="">
+                    <svg class="controls__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1000 1000" width="14px">
+                        <path d="m10 990 114-49-65-67-49 116zM205 621l184 188 509-516-185-188-508 516zM859 10c-46 0-86 24-109 61l180 183c36-24 60-65 60-111 0-73-58-133-131-133zM76 840l82 79 195-76-178-180-99 177z"/>
+                    </svg>
+                    <span>Edit</span>
+                </button>
+                <button class="button button_view_primary" type="button" aria-label="">
+                    <svg class="controls__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1000 1000" width="15px">
+                        <path d="M990 459c0-203-219-367-490-367S10 256 10 459s219 368 490 368l490 81-132-198c82-66 132-154 132-251zM860 827l-360-82C275 745 92 617 92 459s183-286 408-286 408 128 408 286c0 90-60 169-152 221l104 147z"/>
+                    </svg>
+                    <span>Add comment</span>
+                </button>
+                <div>
+                    <button class="button button_view_primary" type="button" aria-label="">Assign</button>
+                    <button class="button button_view_primary" type="button" aria-label="">Create Hotfix</button>
+                    <div class="dropdown-menu">
+                        <input class="dropdown-menu__toggle visually-hidden" id="controls-more" type="checkbox">
+                        <label class="button button_view_primary button_view_dropdown" for="controls-more">
+                            More
+                        </label>
+                        <ul class="dropdown-menu__list">
+                            <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Attach files</li>
+                            <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Attach screenshots</li>
+                            <li class="dropdown-menu__divider"></li>
+                            <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Move</li>
+                            <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Link</li>
+                            <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Clone</li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="button button_view_primary" type="button" aria-label="">Reopen</button>
+            </div>
+            <div class="controls__inner-container">
+                <button class="button button_view_primary" type="button" aria-label="">
+                    <svg class="controls__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1000 1000" width="14px">
+                        <path d="M795 702c40 0 74 14 102 42 27 29 41 62 41 101 0 40-14 74-42 102-29 29-62 43-101 43s-72-14-100-43c-28-28-43-62-43-102 0-16 1-26 3-33L306 610a148 148 0 0 1-205-5c-29-29-44-64-44-104s15-74 44-104c29-29 64-43 104-43 38 0 72 13 101 39l346-201a142 142 0 0 1 39-138c30-29 64-44 104-44s75 15 104 44 44 64 44 104-15 74-44 103-64 44-104 44c-37 0-70-14-101-41L348 467c3 15 4 27 4 34 0 8-1 19-4 35l350 203c28-25 60-37 97-37z"/>
+                    </svg>
+                </button>
+                <div class="dropdown-menu">
+                    <input class="dropdown-menu__toggle visually-hidden" id="controls-export" type="checkbox">
+                    <label class="button button_view_primary button_view_dropdown" for="controls-export">
+                        <svg class="controls__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 1000 1000" height="16px">
+                            <path d="M255 333c-1 1-2 3-1 6 1 2 3 3 5 3h152v248a16 16 0 0 0 16 17h149a16 16 0 0 0 16-17V342h152a5 5 0 0 0 3-9L512 115a16 16 0 0 0-22 0L255 333zm725 328L833 548c-9-7-24-12-35-12h-85l142 141H713l-72 103H358l-69-103H148l141-141h-87c-11 0-26 5-35 12L20 661c-8 7-12 20-9 30l59 180c3 10 14 18 25 18h811c11 0 22-8 25-18l58-179c3-11-1-24-9-31z"/>
+                        </svg>
+                        Export
+                    </label>
+                    <ul class="dropdown-menu__list">
+                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">PDF Document</li>
+                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">Rich Text Format</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <section class="issue">
+            <div class="issue__column">
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Details</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <ul class="table table_columns_multiple">
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Type:</h3>
+                                <p class="issue-block__text">Bug</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Status:</h3>
+                                <p class="issue-block__text">(<a class="link" href="#">View Workflow</a>)</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Priority:</h3>
+                                <p class="issue-block__text issue-block__text_editable" tabindex="0">Medium</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Resolution:</h3>
+                                <p class="issue-block__text">None</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Affects Version/s:</h3>
+                                <p class="issue-block__text issue-block__text_editable" tabindex="0">1.0.1</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Fix Version/s:</h3>
+                                <p class="issue-block__text issue-block__text_editable" tabindex="0"><a class="link" href="#">1.0.1</a></p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Component/s:</h3>
+                                <p class="issue-block__text issue-block__text_editable" tabindex="0">None</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Security Level:</h3>
+                                <p class="issue-block__text">None</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Labels:</h3>
+                                <p class="issue-block__text">None</p>
+                            </li>
+                        </ul>
+                        <div class="tab">
+                            <div class="tab__links">
+                                <button class="tab__link" id="issue-report" aria-label="">Issue Report</button>
+                                <button class="tab__link" id="additional-info" aria-label="">Additional Information</button>
+                            </div>
+                            <div class="tab__content" id="tab-content-issue-report">
+                                <ul class="table">
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Steps:</h3>
+                                        <div class="dropdown-block" style="display: flex; gap: 30px;">
+                                            <button class="dropdown-block__button"></button>
+                                            <div class="dropdown-block__content">
+                                                <p class="issue-block__text issue-block__text_editable" tabindex="0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Epic Link:</h3>
+                                        <p class="issue-block__text issue-block__text_editable" tabindex="0">None</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Severity:</h3>
+                                        <p class="issue-block__text issue-block__text_editable" tabindex="0">Minor</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Reproducibility:</h3>
+                                        <p class="issue-block__text">Consistent</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Needs Community Messaging:</h3>
+                                        <p class="issue-block__text">Undetermined</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">QA Team:</h3>
+                                        <p class="issue-block__text issue-block__text_editable" tabindex="0">None</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Deploy Method:</h3>
+                                        <p class="issue-block__text">None</p>
+                                    </li>
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Language:</h3>
+                                        <p class="issue-block__text">English</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab__content" id="tab-content-additional-info">
+                                <ul class="table">
+                                    <li class="table__row">
+                                        <h3 class="issue-block__heading">Fix Fail Count:</h3>
+                                        <p class="issue-block__text">0</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Description</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <p class="issue-block__note issue-block__text_editable">Click to add description</p>
+                    </div>
+                </div>
+                <div class="issue-block test-rail-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">TestRail: Result</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <p class="issue-block__note">You are not yet logged into TestRail. Please log in to use integration.</p>
+                        <button class="button button_view_secondary test-rail-block__button" type="button" aria-label="">Log in to TestRail</button>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Attachments</h4>
+                        <div class="dropdown-menu attachments-options">
+                            <input class="dropdown-menu__toggle visually-hidden" id="attachments-options" type="checkbox">
+                            <label class="options-button" for="attachments-options">
+                                <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px" fill="currentColor">
+                                    <g><path d="M59.1,315.1C26.5,315.1,0,288.6,0,256s26.5-59.1,59.1-59.1s59.1,26.5,59.1,59.1S91.7,315.1,59.1,315.1z M256,315.1c-32.6,0-59.1-26.5-59.1-59.1s26.5-59.1,59.1-59.1s59.1,26.5,59.1,59.1S288.6,315.1,256,315.1z M452.9,315.1 c-32.6,0-59.1-26.5-59.1-59.1s26.5-59.1,59.1-59.1S512,223.4,512,256S485.5,315.1,452.9,315.1z"/></g>
+                                </svg>
+                            </label>
+                            <div class="dropdown-menu__list">
+                                <fieldset class="attachments-options__fieldset">
+                                    <legend class="visually-hidden">Sort By:</legend>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-sort-by-name" name="sort-by" value="name" checked>
+                                    <label 
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                        for="attachments-sort-by-name"
+                                    >
+                                        Sort By Name
+                                    </label>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-sort-by-date" name="sort-by" value="date">
+                                    <label 
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label" 
+                                        for="attachments-sort-by-date"
+                                    >
+                                        Sort By Date
+                                    </label>
+                                </fieldset>
+                                <fieldset class="attachments-options__fieldset">
+                                    <legend class="visually-hidden"> Order:</legend>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-order-ascending" name="attachments-order" value="ascending" checked>
+                                    <label 
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                        for="attachments-order-ascending"
+                                    >
+                                        Ascending
+                                    </label>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-order-descending" name="attachments-order" value="descending">
+                                    <label
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                        for="attachments-order-descending"
+                                    >
+                                        Descending
+                                    </label>
+                                </fieldset>
+                                <fieldset class="attachments-options__fieldset">
+                                    <legend class="visually-hidden">View:</legend>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-view-thumbs" name="attachments-view" value="thumbs" checked>
+                                    <label
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                        for="attachments-view-thumbs"
+                                    >
+                                        Thumbnails
+                                    </label>
+                                    <input class="attachments-options__option visually-hidden" type="radio" id="attachments-view-list" name="attachments-view" value="list">
+                                    <label
+                                        class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                        for="attachments-view-list"
+                                    >
+                                        List
+                                    </label>
+                                </fieldset>
+                                <a
+                                    class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                    href="#">Download All</a>
+                                <a
+                                    class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark attachments-options__option-label"
+                                    href="#">Manage Attachments</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <div 
+                            class="drop-zone"
+                            id="drop-zone"
+                            ondrop="dropHandler(event)"
+                            ondragover="dragOverHandler(event)"
+                        >
+                            <p class="issue-block__text drop-zone__text">
+                                <svg class="drop-zone__upload-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+                                    <g transform="translate(0.000000,511.000000) scale(0.100000,-0.100000)"><path d="M4155.3,3373c-15.4-3.8-94-17.3-172.7-28.8c-602.6-97.9-1266.5-571.9-1613.9-1153.3l-76.8-126.7l-166.9-11.5c-491.3-36.5-963.3-261-1349.1-644.8C442.1,1072.1,238.6,692.1,133.1,206.6C89-2.6,89-447.8,133.1-657c180.4-832.8,748.4-1494.9,1502.6-1748.2c287.8-95.9,362.7-101.7,1441.2-103.6h1003.6l46.1,48c57.6,55.7,61.4,142,11.5,203.4l-36.5,46l-1034.4,11.5c-982.5,9.6-1040.1,11.5-1182.1,51.8C1464.9-2031,1081.1-1770,812.4-1415c-124.7,163.1-289.8,504.7-345.4,710c-59.5,228.4-61.4,704.3,0,925c88.3,322.4,259.1,637.1,481.7,882.7c318.6,351.2,802.1,583.4,1258.9,602.6c309,13.4,287.9,1.9,383.8,209.2c109.4,238,199.6,370.4,372.3,552.7c167,174.6,399.2,335.8,612.2,426c779.1,328.2,1700.2,103.6,2212.6-541.2c149.7-190,238-353.1,316.6-585.3c74.8-220.7,86.3-237.9,161.2-255.2c40.3-9.6,92.1,7.7,205.3,63.3c216.8,109.4,383.8,145.9,623.7,134.3c330.1-15.3,612.1-143.9,823.2-376.1c182.3-199.6,276.3-410.7,305.1-681.2c21.1-211.1,59.5-262.9,197.7-262.9c259.1-1.9,527.7-130.5,761.9-364.6c264.8-262.9,403-583.4,403-930.7c0-585.3-443.3-1151.4-994-1266.5c-105.5-23-393.4-28.8-1564-28.8H5592.7l-46-48c-59.5-57.6-61.4-140.1-7.7-209.2l40.3-51.8L7126-2505l1548.6,5.8l142,53.7c531.5,195.7,898.1,608.3,1049.7,1184c48,180.4,44.1,556.5-7.7,750.3c-159.3,591-616,1055.4-1166.8,1184l-151.6,36.5l-13.4,97.9c-23,149.7-117.1,389.6-216.8,545c-201.5,309-520,541.2-882.7,637.1c-274.4,72.9-646.7,57.6-909.6-36.5l-120.9-44.1l-11.5,40.3c-5.7,23-53.7,126.7-103.6,230.3c-330.1,656.3-951.8,1090-1704.1,1182.1C4427.8,3380.6,4224.4,3386.4,4155.3,3373z"/><path d="M4698.4-133.1c-245.6-213-982.5-944.1-992.1-986.4c-26.9-101.7,88.3-216.8,188.1-191.9c23,5.8,205.3,167,404.9,358.9l364.6,349.2l9.6-1235.8c5.8-679.3,11.5-1237.8,15.3-1239.7c1.9-1.9,23-21.1,46.1-44.1c53.7-49.9,149.7-49.9,203.4,0c23,23,44.1,42.2,46.1,44.1c3.8,1.9,9.6,562.3,15.4,1245.4l9.6,1239.7l364.6-351.2c220.7-213,385.7-356.9,416.4-364.6c57.6-13.4,157.3,30.7,176.5,76.8c5.8,17.3,11.5,57.6,11.5,90.2c0,59.5,3.8,53.7-865.5,894.2C4869.2-14.1,4842.3-8.3,4698.4-133.1z" fill="currentColor"/></g>
+                                </svg>
+                                Drop files to attach, or 
+                                <label class="drop-zone__input-label" for="drop-zone-input">browse</label>.
+                                <input class="drop-zone__input" id="drop-zone-input" type="file" multiple>
+                            </p>
+                            <ol class="attachments"></ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Structure</h4>
+                        <div class="structure-settings">
+                            <input class="structure-settings__toggle visually-hidden" id="structure-settings" type="checkbox">
+                            <label class="options-button" for="structure-settings">
+                                <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="16px" height="16px" fill="currentColor">
+                                    <g><path d="M727.6,161.2c22.5,15.1,43.1,32.2,61.7,51l70-39.3c33.2,27,56,58.8,68.5,95.5l-61.5,52.1c5.8,11.6,10.9,23.5,15.5,35.7c4.9,12.8,9,25.9,12.6,39.2l80.3,1c15.2,40,19.1,79,11.6,117l-79.1,14.4c-1.8,26.4-6.2,52.8-13.3,78.9l69,41c-6.8,42.1-22.9,77.8-48.5,107l-75.7-27.1c-15.1,22.5-32.1,43.1-50.9,61.8l39.3,69.9c-26.9,33.2-58.9,56-95.5,68.5l-52.1-61.4c-11.7,5.7-23.5,10.9-35.7,15.4c-12.9,4.9-25.9,9-39.2,12.5l-1,80.4c-39.9,15.2-78.9,19-117,11.6l-14.4-79.1c-26.3-1.8-52.8-6.2-79-13.3l-40.9,69c-42.2-6.8-77.9-23-107.1-48.5l27.1-75.7c-22.5-15-43.1-32.1-61.7-50.9l-70,39.4c-33.1-27-56-58.9-68.5-95.6l61.4-52c-5.7-11.6-10.8-23.6-15.4-35.6c-4.9-12.9-9.1-26-12.6-39.2l-80.3-1.1c-15.2-39.9-19.1-78.9-11.6-116.9l79.1-14.4c1.8-26.3,6.2-52.7,13.3-78.9l-69-41c6.8-42.2,23-77.8,48.5-107.1l75.7,27.1c15.1-22.5,32.2-43.1,50.9-61.7l-39.3-70c27-33.1,58.8-56,95.5-68.5l52.1,61.4c11.7-5.7,23.5-10.8,35.7-15.4c12.8-4.9,25.9-9,39.2-12.6l1-80.3c39.9-15.2,78.9-19.1,116.9-11.6l14.4,79.1c26.4,1.8,52.8,6.2,78.9,13.3l41-69c42.1,6.8,77.8,23,107.1,48.5L727.6,161.2L727.6,161.2z M752.3,405C728,340.4,679,285.1,611.2,254.4c-67.9-30.7-141.7-31-206.3-6.7C340.4,272,285.1,321,254.4,388.8c-30.7,67.8-31,141.6-6.7,206.3c24.3,64.5,73.2,119.8,141.1,150.5c67.8,30.8,141.6,31,206.2,6.7c64.6-24.2,119.9-73.2,150.5-141.1C776.3,543.4,776.6,469.5,752.3,405z"/></g>
+                                </svg>
+                            </label>
+                            <div class="modal" id="structure-settings-modal">
+                                <h3 class="modal__heading">Structure Settings</h3>
+                                <fieldset class="structure-settings__fieldset">
+                                    <ul class="structure-settings__options">
+                                        <li class="structure-settings__option">
+                                            <input type="checkbox" id="structure-settings-auto-switch-toggle" checked>
+                                            <label for="structure-settings-auto-switch-toggle">Auto-switch to:</label>
+                                        </li>
+                                        <li class="structure-settings__option structure-settings__option_type_radio">
+                                            <input type="radio" name="auto-switch-type" id="structure-settings-auto-switch-with-issue" checked>
+                                            <label for="structure-settings-auto-switch-with-issue">Structure with the displayed issue</label>
+                                        </li>
+                                        <li class="structure-settings__option structure-settings__option_type_radio">
+                                            <input type="radio" name="auto-switch-type" id="structure-settings-auto-switch-default">
+                                            <label for="structure-settings-auto-switch-default">Default structure</label>
+                                        </li>
+                                        <li class="structure-settings__option">
+                                            <input type="checkbox" id="structure-settings-keep-structure" checked>
+                                            <label for="structure-settings-keep-structure">Keep structure selection when navigating to another issue</label>
+                                        </li>
+                                        <li class="structure-settings__option">
+                                            <input type="checkbox" id="structure-settings-auto-collapse" checked>
+                                            <label for="structure-settings-auto-collapse">Auto-minimize panel when issue is not in structure</label>
+                                        </li>
+                                    </ul>
+                                </fieldset>
+                                <div class="modal__buttons">
+                                    <a class="link" href="#">Help</a>
+                                    <button class="button button_view_primary" onclick="closeStructureSettingsHandler()" type="button" aria-label="Close modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <div class="structure-header">
+                            <div class="dropdown-menu">
+                                <input class="dropdown-menu__toggle visually-hidden" id="structure-search" type="checkbox">
+                                <label class="structure-search__button" for="structure-search">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 512 512" fill="currentColor">
+                                        <path d="M15.9 1.4C4.2 5.6-2.3 17.8 1 29.5c1.7 6.1 7.9 12.9 13.8 15.2 4.5 1.7 14.6 1.8 241.2 1.8s236.7-.1 241.2-1.8c5.9-2.3 12.1-9.1 13.8-15.2 2.7-9.8-1.6-20.5-10.4-26l-4.9-3L257.6.3C64.7.1 18.8.3 15.9 1.4zM85.7 117.1c-11.2 2.7-18 11.2-18 22.9 0 9.8 7.4 19.5 16.8 21.9 3.1.8 55.6 1.1 181.3 1.1 197.5 0 182.4.6 190.1-7.1 4.1-4.1 7.1-11 7.1-16.2 0-8.3-6.4-17.9-14.2-21.3-4.1-1.8-11-1.9-181.8-2.1-102 0-179.1.3-181.3.8zM41 235.1c-9.2 4.2-13.4 10.7-13.4 20.9s4.2 16.7 13.4 20.9c4.5 2 5.5 2.1 174.1 2.1h169.5l5.2-2.6c16.6-8.3 16.6-32.5 0-40.8l-5.2-2.6H215.1c-168.6 0-169.6.1-174.1 2.1zM165 349.9c-10.8 3.3-17.1 11.7-17.1 22.9 0 10.7 7.6 19.9 18.3 22.1 3.7.8 40.8 1.1 123.8.9 117.7-.3 118.5-.3 123-2.4 11.9-5.5 16.8-19.7 10.9-31.5-2.4-4.8-8.8-10.3-13.8-11.7-4.4-1.4-240.8-1.6-245.1-.3zM226.3 466c-10.4 2.2-17.5 9.8-18.9 20.4-1.2 8.3 3.7 17.8 11.5 22.4l4.6 2.7 42.9.3c37 .2 43.5.1 47.6-1.3 16.2-5.4 20.8-26.9 8.3-38.7-6.5-6.2-6.9-6.3-51.3-6.5-22.3-.1-42.4.2-44.7.7z"/>
+                                    </svg>
+                                    Archives Structure
+                                </label>
+                                <ul class="dropdown-menu__list">
+                                    <input class="structure-search__input" type="text" id="structure-input" placeholder="Search Structure">
+                                    <h6 class="structure-search__heading">Recent Structures</h6>
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">
+                                        Some recent structure
+                                    </li>
+                                    <li class="dropdown-menu__divider"></li>
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">
+                                        Manage Structure
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="structure-header__toolbar">
+                                <!-- TODO: think of better IDs -->
+                                <li class="dropdown-menu">
+                                    <input class="dropdown-menu__toggle visually-hidden" id="structure-pin" type="checkbox">
+                                    <label class="options-button" for="structure-pin">
+                                        <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" width="16px" height="16px" fill="currentColor">
+                                            <path d="M476.515 116.326 373.673 13.484C364.978 4.789 353.385 0 341.03 0h-.001c-12.354 0-23.947 4.789-32.641 13.483L286.352 35.52c-2.813 2.813-4.394 6.628-4.394 10.606s1.581 7.794 4.394 10.606L301.46 71.84 190.545 182.757c-7.37-4.748-15.972-7.294-24.978-7.294-12.354 0-23.947 4.789-32.64 13.483l-22.036 22.036c-5.858 5.857-5.858 15.355 0 21.213l38.024 38.024-145.401 173.1c-5.004 5.957-4.623 14.752.879 20.254l22.033 22.033c2.916 2.916 6.756 4.394 10.61 4.394 3.417 0 6.844-1.162 9.645-3.515l173.099-145.4 38.024 38.024c5.858 5.858 15.355 5.858 21.213 0l22.038-22.037c15.62-15.621 17.682-39.746 6.187-57.614L418.16 188.54l15.107 15.106c2.813 2.813 6.628 4.394 10.606 4.394 3.979 0 7.794-1.58 10.607-4.394l22.033-22.034c8.697-8.695 13.486-20.288 13.486-32.644.001-12.354-4.788-23.947-13.484-32.642zM37.916 454.669l-2.585-2.585 134.877-160.571 28.279 28.279L37.916 454.669zm241.925-118.81L268.41 347.29l-37.028-37.028c-.037-.038-.075-.076-.113-.114l-51.417-51.417-.073-.073-37.068-37.068 11.43-11.431c3.028-3.027 7.085-4.695 11.426-4.695s8.401 1.669 11.43 4.697l3.667 3.668.011.011c.004.004.007.008.011.012l99.152 99.151c6.304 6.301 6.304 16.555.003 22.856zm6.928-58.354-74.273-74.272L322.673 93.054l74.273 74.272-110.177 110.179zm168.532-117.107-11.428 11.428-13.109-13.108c-.524-.771-1.127-1.503-1.81-2.186s-1.415-1.286-2.186-1.81L335.28 63.234c-.524-.771-1.128-1.505-1.812-2.188-.684-.685-1.417-1.288-2.189-1.813l-13.107-13.107 11.429-11.43C332.63 31.668 336.689 30 341.03 30c4.342 0 8.401 1.668 11.43 4.697l102.842 102.842c3.03 3.03 4.698 7.089 4.698 11.43s-1.668 8.399-4.699 11.429z"/>
+                                        </svg>
+                                    </label>
+                                </li>
+                                <li class="dropdown-menu">
+                                    <input class="dropdown-menu__toggle visually-hidden" id="structure-options" type="checkbox">
+                                    <label class="options-button" for="structure-options">
+                                        <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16px" height="16px" fill="currentColor">
+                                            <g><path d="M59.1,315.1C26.5,315.1,0,288.6,0,256s26.5-59.1,59.1-59.1s59.1,26.5,59.1,59.1S91.7,315.1,59.1,315.1z M256,315.1c-32.6,0-59.1-26.5-59.1-59.1s26.5-59.1,59.1-59.1s59.1,26.5,59.1,59.1S288.6,315.1,256,315.1z M452.9,315.1 c-32.6,0-59.1-26.5-59.1-59.1s26.5-59.1,59.1-59.1S512,223.4,512,256S485.5,315.1,452.9,315.1z"/></g>
+                                        </svg>
+                                    </label>
+                                    <ul class="dropdown-menu__list">
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Add New...</li>
+                                        <li class="dropdown-menu__divider"></li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Expand all</li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Collapse all</li>
+                                        <li class="dropdown-menu__divider"></li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Edit</li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Copy</li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Cut</li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Paste</li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_dark">Remove</li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-menu">
+                                    <input class="dropdown-menu__toggle visually-hidden" id="structure-more" type="checkbox">
+                                    <label class="options-button" for="structure-more">
+                                        <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 302 302" width="16px" height="16px" fill="currentColor" style="transform: rotate(90deg);">
+                                            <path d="M0 36h302v30H0zM0 236h302v30H0zM0 136h302v30H0z"/>
+                                        </svg>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Activity</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <div class="tab">
+                            <div class="tab__links">
+                                <button class="tab__link" id="activity-all" aria-label="">All</button>
+                                <button class="tab__link" id="activity-comments" aria-label="">Comments</button>
+                                <button class="tab__link" id="activity-work-log" aria-label="">Works Log</button>
+                                <button class="tab__link" id="activity-history" aria-label="">History</button>
+                                <button class="tab__link" id="activity-activity" aria-label="">Activity</button>
+                                <button class="tab__link" id="activity-transitions" aria-label="">Transitions</button>
+                                <button class="tab__link" id="activity-tasklist-history" aria-label="">Tasklist History</button>
+                            </div>
+                            <div class="tab__content" id="tab-content-activity-all">...All activity</div>
+                            <div class="tab__content" id="tab-content-activity-comments">...Comments</div>
+                            <div class="tab__content" id="tab-content-activity-work-log">...Work Log</div>
+                            <div class="tab__content" id="tab-content-activity-history">...History</div>
+                            <div class="tab__content" id="tab-content-activity-activity">...Activity</div>
+                            <div class="tab__content" id="tab-content-activity-transitions">...Transitions</div>
+                            <div class="tab__content" id="tab-content-activity-tasklist-history">...Tasklist history</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="issue__column">
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">People</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <ul class="table">
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Assignee:</h3>
+                                <div class="table__cell">
+                                    <p class="issue-block__text issue-block__text_editable" tabindex="0">Unassigned</p>
+                                    <a class="link" href="#">Assign to me</a>
+                                </div>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Reporter:</h3>
+                                <span class="avatar">
+                                    <img class="avatar__image" src="./images/reporter-avatat.jpg" alt="Reporter avatar">
+                                </span>
+                                <p class="issue-block__text">John Doe</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Voters:</h3>
+                                <p class="issue-block__text"><a class="badge badge_view_primary" href="#">0</a></p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Watchers:</h3>
+                                <p class="issue-block__text"><a class="badge badge_view_secondary" href="#">1</a> <a class="link" href="#"> Stop watching this issue</a></p>
+                            </li>
+                        </ul>               
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Dates</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <ul class="table">
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Created:</h3>
+                                <p class="issue-block__text">01/01/2023 00:00 AM</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Updated:</h3>
+                                <p class="issue-block__text">01/01/2023 00:00 AM</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Resolved:</h3>
+                                <p class="issue-block__text">01/01/2023 00:00 AM</p>
+                            </li>
+                            <li class="table__row">
+                                <h3 class="issue-block__heading">Completed Date:</h3>
+                                <p class="issue-block__text issue-block__text_editable" tabindex="0">01/01/2023 00:00 AM</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Time Tracking</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <ul class="table">
+                            <li class="table__row">
+                                <dl class="progress">
+                                    <dt class="issue-block__heading">Estimated:</dt>
+                                    <dd class="progress__meter">
+                                        <span data-progress="0"></span>
+                                    </dd>
+                                    <dd class="progress__label">Not Specified</dd>
+                                </dl>
+                            </li>
+                            <li class="table__row">
+                                <dl class="progress">
+                                    <dt class="issue-block__heading">Remaining:</dt>
+                                    <dd class="progress__meter">
+                                        <span data-progress="25"></span>
+                                    </dd>
+                                    <dd class="progress__label">1h</dd>
+                                </dl>
+                            </li>
+                            <li class="table__row">
+                                <dl class="progress">
+                                    <dt class="issue-block__heading">Logged:</dt>
+                                    <dd class="progress__meter">
+                                        <span data-progress="100"></span>
+                                    </dd>
+                                    <dd class="progress__label">3h</dd>
+                                </dl>
+                            </li>
+                            <li class="table__row">
+                                <dl class="progress">
+                                    <dt class="issue-block__heading">Dmytro Palii:</dt>
+                                    <dd class="progress__meter">
+                                        <span data-progress="100"></span>
+                                    </dd>
+                                    <dd class="progress__label">3h</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Agile</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <a class="link" href="#">View on Board</a>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Slack</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <p class="issue-block__text">In order to see discussions, first confirm access to your Slack account(s) in the following workspace(s): <a class="link" href="#">World of Warcraft</a></p>
+                    </div>
+                </div>
+                <div class="issue-block test-rail-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">TestRail: Runs</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <p class="issue-block__note">You are not yet logged into TestRail. Please log in to use integration.</p>
+                        <button class="button button_view_secondary test-rail-block__button" type="button" aria-label="">Log in to TestRail</button>
+                    </div>
+                </div>
+                <div class="issue-block test-rail-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">TestRail: Cases</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content">
+                        <p class="issue-block__note">You are not yet logged into TestRail. Please log in to use integration.</p>
+                        <button class="button button_view_secondary test-rail-block__button" type="button" aria-label="">Log in to TestRail</button>
+                    </div>
+                </div>
+                <div class="issue-block dropdown-block">
+                    <div class="issue-block__header">
+                        <button class="dropdown-block__button"></button>
+                        <h4 class="issue-block__title">Tasks</h4>
+                    </div>
+                    <div class="issue-block__content dropdown-block__content todo">
+                        <form class="todo__form">
+                            <input class="todo__input" type="text" id="todo-input" placeholder="Enter task and hit enter">
+                        </form>
+                        <div class="todo__handlers">
+                            <dl class="progress">
+                                <dt class="visually-hidden">Tasks progress:</dt>
+                                <dd class="progress__meter">
+                                    <span data-progress="0"></span>
+                                </dd>
+                                <dd class="progress__label">0/<span id="todo-total-counter">0</span></dd>
+                            </dl>
+                            <input class="visually-hidden" id="todo-filters" type="checkbox">
+                            <label class="options-button" for="todo-filters">
+                                <svg class="options-button__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24px" height="20px" fill="currentColor">
+                                    <path d="M170.7 384c0-11.8 9.6-21.3 21.3-21.3h128c11.8 0 21.3 9.6 21.3 21.3s-9.6 21.3-21.3 21.3H192c-11.8 0-21.3-9.5-21.3-21.3zM85.3 256c0-11.8 9.6-21.3 21.3-21.3h298.7c11.8 0 21.3 9.6 21.3 21.3s-9.6 21.3-21.3 21.3H106.7c-11.8 0-21.4-9.5-21.4-21.3zM0 128c0-11.8 9.6-21.3 21.3-21.3h469.3c11.8 0 21.3 9.6 21.3 21.3s-9.6 21.3-21.3 21.3H21.3C9.6 149.3 0 139.8 0 128z"/>
+                                </svg>
+                            </label>
+                            <div class="todo__filters">
+                                <div class="dropdown-menu">
+                                    <input class="dropdown-menu__toggle visually-hidden" id="todo-filters-all-tasks" type="checkbox">
+                                    <label class="button button_view_dropdown todo__filter-button" for="todo-filters-all-tasks">
+                                        All Tasks
+                                    </label>
+                                    <ul class="dropdown-menu__list">
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            All Tasks
+                                        </li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            Open Tasks
+                                        </li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            Closed Tasks
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-menu">
+                                    <input class="dropdown-menu__toggle visually-hidden" id="todo-filters-due-date" type="checkbox">
+                                    <label class="button button_view_dropdown todo__filter-button" for="todo-filters-due-date">
+                                        Due Date
+                                    </label>
+                                    <ul class="dropdown-menu__list">
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            All Dates
+                                        </li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            Overdue (Past Due)
+                                        </li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            Next 7 Days
+                                        </li>
+                                        <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                            All Future Dates
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="dropdown-menu">
+                                <input class="dropdown-menu__toggle visually-hidden" id="todo-file" type="checkbox">
+                                <label class="dropdown-menu__button todo__handler" for="todo-file">
+                                    <svg class="todo__handler-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="24px" height="20px" fill="currentColor">
+                                        <path d="M990 459c0-203-219-367-490-367S10 256 10 459s219 368 490 368l490 81-132-198c82-66 132-154 132-251zM860 827l-360-82C275 745 92 617 92 459s183-286 408-286 408 128 408 286c0 90-60 169-152 221l104 147z"/>
+                                    </svg>
+                                </label>
+                                <ul class="dropdown-menu__list">
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                        Insert a Template
+                                    </li>
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                        New Template from the Tasks Below
+                                    </li>
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                        Import tasks from an issue
+                                    </li>
+                                    <li class="dropdown-menu__list-item dropdown-menu__list-item_theme_light">
+                                        Export tasks  to CSV file
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="todo__list">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <template id="todo-list-item">
+        <li class="todo__list-item issue-block__text"></li>
+    </template>
+    <template id="attachment-template">
+        <li class="attachment">
+            <img class="attachment__thumb" src="#" alt="">
+            <div class="attachment__description">
+                <h6 class="attachment__title"></h6>
+                <div class="attachment__info-container">
+                    <p class="attachment__date"></p>
+                    <span class="attachment__size"></span>
+                </div>
+            </div>
+            <button class="attachment__edit-button" type="button" aria-label="Edit attachment"></button>
+            <button class="attachment__delete-button" onclick="handleAttachmentDelete(event)" type="button" aria-label="Delete attachment"></button>
+        </li>
+    </template>
+    <script src="scripts/script.js"></script>
+</body>

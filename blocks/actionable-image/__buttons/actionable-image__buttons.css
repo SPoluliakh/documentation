@@ -1,0 +1,14 @@
+.actionable-image__buttons {
+  display: flex;
+  gap: 2px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s opacity ease;
+}
+
+.actionable-image:hover > .actionable-image__buttons {
+  opacity: 1;
+}

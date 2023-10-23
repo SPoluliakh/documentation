@@ -1,0 +1,12 @@
+.trainer__main-panel {
+  display: grid;
+  align-content: start;
+  padding: 20px;
+}
+
+.trainer__main-panel#lesson-1 {
+  grid-template-areas:
+    "header            header            "
+    "controls          controls          "
+    "issue-column-left issue-column-right";
+}

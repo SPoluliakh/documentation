@@ -1,0 +1,22 @@
+.options-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    padding: 0 4px;
+    border-radius: 3px;
+    color:#344563;
+    cursor: pointer;
+    transition: color .3s, background-color .3s ease;
+  }
+  
+  .options-button:hover,
+  input[type="checkbox"]:focus-visible + .options-button {
+    background-color: #091E4221;
+  }
+  
+  input[type="checkbox"]:checked + .options-button {
+    color: #fff;
+    background-color: #344563;
+  }
+  

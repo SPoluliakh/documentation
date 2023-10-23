@@ -1,0 +1,10 @@
+.page {
+  background-color: #fff;
+  color: #172B4D;
+  margin: 0;
+  font-family: BlinkMacSystemFont, "Arial", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+}

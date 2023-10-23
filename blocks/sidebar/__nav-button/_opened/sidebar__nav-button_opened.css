@@ -1,0 +1,5 @@
+.sidebar__nav-button_opened {
+  background-image: url('../../../../images/side-menu-close-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+}

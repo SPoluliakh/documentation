@@ -1,0 +1,17 @@
+.chat-bot__button {
+  padding: 8px 12px;
+  border: 1px solid #172B4D;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #172B4D;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.chat-bot__button:hover {
+  color: #fff;
+  background-color: #242424;
+}

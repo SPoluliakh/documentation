@@ -1,0 +1,11 @@
+.button_view_secondary {
+  font-weight: 600;
+  color: #fff;
+  background-color: #5993bc;
+  transition: background-color .3s ease;
+}
+
+.button_view_secondary:hover,
+.button_view_secondary:focus-visible {
+  background-color: #376789;
+}

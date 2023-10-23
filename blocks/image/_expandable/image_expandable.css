@@ -1,0 +1,25 @@
+.image_expandable {
+  cursor: zoom-in;
+  transition: background-color .3s,filter .3s ease;
+}
+
+.image_expandable:hover {
+  filter: brightness(0.95);
+  background-color: rgba(236, 236, 236, .4);
+}
+
+.actionable-image[id="image-color-code-header"]:hover > .image_expandable {
+  background-color: rgba(237, 193, 187, .4);
+}
+
+.actionable-image[id="image-color-code-controls"]:hover > .image_expandable {
+  background-color: rgba(210, 229, 208, .4);
+}
+
+.actionable-image[id="image-color-code-details"]:hover > .image_expandable {
+  background-color: rgba(239, 213, 147, .4);
+}
+
+.actionable-image[id="image-color-code-people"]:hover > .image_expandable {
+  background-color: rgba(121, 169, 245, .4);
+}

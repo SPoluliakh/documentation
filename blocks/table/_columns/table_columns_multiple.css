@@ -1,0 +1,4 @@
+.table_columns_multiple {
+  flex-direction: row;
+  flex-wrap: wrap;
+}

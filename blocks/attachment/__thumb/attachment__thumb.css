@@ -1,0 +1,6 @@
+.attachment__thumb {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border: 1px dotted #ccc;
+}

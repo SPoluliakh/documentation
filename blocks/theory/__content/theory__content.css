@@ -1,0 +1,15 @@
+.theory__content {
+  max-width: calc((100% - 63px) / 2);
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 2000px) {
+  .theory__content {
+    max-width: calc((100% - 63px) * .7);
+  }
+}
+
+.split-view__panel > .theory__content {
+  max-width: none;
+}

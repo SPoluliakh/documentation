@@ -1,0 +1,4 @@
+.quiz__options {
+  display: flex;
+  flex-direction: column;
+}

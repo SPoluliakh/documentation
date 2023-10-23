@@ -1,0 +1,18 @@
+.button_view_dropdown {
+  position: relative;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-right: 35px;
+  padding-bottom: 4px;
+}
+
+.button_view_dropdown:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}

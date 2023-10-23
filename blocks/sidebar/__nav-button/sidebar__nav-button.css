@@ -1,0 +1,6 @@
+.sidebar__nav-button {
+  background-image: url('../../../images/side-menu-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: background-image .3s ease;
+}

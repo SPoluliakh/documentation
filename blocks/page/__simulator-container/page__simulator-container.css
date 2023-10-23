@@ -1,0 +1,6 @@
+.page__simulator-container {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  min-width: 320px;
+  margin: 0 auto;
+}

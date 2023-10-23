@@ -1,0 +1,18 @@
+.tab__link {
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #172B4D;
+  background: none;
+  border: none;
+  transition: color .3s ease;
+}
+
+.tab__link:hover:not(.tab__link_active) {
+  color: #4C9AFF;
+}
+
+.tab__link:not(:last-child) {
+  margin-right: 15px;
+}

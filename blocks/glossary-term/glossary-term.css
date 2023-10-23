@@ -1,0 +1,24 @@
+.glossary-term {
+  display: inline-block;
+  position: relative;
+  cursor: default;
+  margin: 0 calc(.3em / 2);
+  padding: 0 .3em;
+}
+
+.glossary-term::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  border: 1px solid rgba(0, 0, 0, .25);
+  border-radius: 4px;
+  transition: border-color 0.2s;
+}
+
+.element-hint:hover.element-hint::after {
+  border: 1px solid rgb(0, 0, 0);
+}

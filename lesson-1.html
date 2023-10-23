@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./pages/simulator.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onboarding</title>
+</head>
+
+<body class="page">
+  <div class="page__simulator-container">
+    <div class="sidebar">
+      <aside class="sidebar__container">
+        <ul class="sidebar__items">
+          <li>
+            <a class="sidebar__button" href="/index.html">
+              <svg class="sidebar__icon" aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M7.414 12l4.564 4.427a.981.981 0 01-1.366 1.41L4.586 12l6.027-5.77a.98.98 0 111.355 1.416L7.414 12z" fill="currentColor"></path>
+                <rect x="7" y="11.074" width="12" height="1.926" rx=".963" fill="currentColor"></rect>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <button class="sidebar__button sidebar__nav-button"></button>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <main class="onboarding">
+      <div class="split-view split-view_direction_column">
+        <section class="theory split-view__panel">
+          <div class="theory__content">
+            <h1 class="theory__title">Hello, hi there, welcome 👋</h1>
+            <div class="paragraph">
+              You are looking at&nbsp;the very first prototype of&nbsp;the simulator designed to&nbsp;make it&nbsp;easier to&nbsp;introduce yourself with the documentation, demonstrate the available functionality, and give you the opportunity to&nbsp;interact with&nbsp;it.
+            </div>
+            <h2 class="theory__subtitle">Where to start</h2>
+            <div class="paragraph">
+              The right side of&nbsp;the screen is&nbsp;our simulator&nbsp;&mdash; a&nbsp;place where you can interact with the documentation. That&rsquo;s right, you can press buttons, edit fields, and follow links, and nothing will break!
+            </div>
+            <div class="quiz">
+              <p class="quiz__question">
+                Try hovering and clicking on any image on this trainer page, and see what happens.
+              </p>
+              <div class="quiz__options">
+                <label class="quiz__option">
+                  <input class="checkbox__input" type="radio" name="first-quiz">
+                  I just opened full-sized picture!
+                  <span class="quiz__message quiz__message_verdict_correct">
+                    Exactly! &#128269; means you can take a closer look
+                  </span>
+                </label>
+                <label class="quiz__option">
+                  <input class="checkbox__input" type="radio" name="first-quiz">
+                  Absolutely nothing
+                  <span class="quiz__message quiz__message_verdict_incorrect">
+                    Ooooops, we did something wrong..
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div class="paragraph">
+              You may have noticed that the pictures are <span class="highlighted">highlighted</span> in&nbsp;different colors. It&rsquo;s not a&nbsp;bug; it&rsquo;s a&nbsp;feature! There are studies that color coding improves recall and retention, organizes thinking, makes thinking visible to&nbsp;some people, and helps to&nbsp;make connections.
+            </div>
+            <div class="paragraph">
+              To&nbsp;get a&nbsp;quick summary of&nbsp;an&nbsp;element, simply hover over it&nbsp;and look for
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22px" height="22px" style="vertical-align: bottom;" fill="#172B4D">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10.75 16.2428C10.75 15.5202 11.2991 15 11.9928 15C12.7009 15 13.25 15.5202 13.25 16.2428C13.25 16.9653 12.7009 17.5 11.9928 17.5C11.2991 17.5 10.75 16.9653 10.75 16.2428ZM12.2248 6.5C10.0678 6.5 8.44995 7.74332 8.44995 9.75061V9.7749C8.44995 10.051 8.67381 10.2749 8.94995 10.2749H9.75319C9.99311 10.2749 10.1876 10.0804 10.1876 9.84049C10.1876 8.717 11.0564 8.11781 12.2248 8.11781C13.3633 8.11781 14.1123 8.717 14.1123 9.57085C14.1123 10.3798 13.6929 10.7543 12.6443 11.2336L12.3447 11.3684C11.4609 11.7579 11.1313 12.3421 11.1313 13.3607V13.5C11.1313 13.7761 11.3552 14 11.6313 14H12.369C12.6451 14 12.869 13.7761 12.869 13.5V13.4656C12.869 13.0162 12.9888 12.8364 13.3483 12.6717L13.6479 12.5368C14.9062 11.9676 15.85 11.2186 15.85 9.58583V9.49595C15.85 7.77328 14.352 6.5 12.2248 6.5Z" fill="currentColor" fill-opacity="0.85"></path>
+                </svg> button. Click on&nbsp;it, and information will pop&nbsp;up in&nbsp;the lower right section of&nbsp;the simulator.
+            </div>
+            <div class="paragraph">
+              Also, some hints are sprinkled here and there. When you see
+              <span class="glossary-term">such&nbsp;an&nbsp;element
+                <span class="glossary-term__hint">Here ya go!</span>
+              </span>, just hover over&nbsp;it, and you will see the hint.
+            </div>
+            <h2 class="theory__subtitle">Let's keep exploring</h2>
+            <div class="paragraph">
+              To&nbsp;understand the issue report structure and its functionality, we&nbsp;will break it&nbsp;down into individual blocks and control groups until we&nbsp;finally reach the simplest functional elements and learn how to&nbsp;interact with them.
+            </div>
+            <div class="paragraph">
+              Now, hover your cursor over any image once again and click
+              <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="18px" height="18px" style="vertical-align: top;" fill="#172B4D">
+                <g><g><path d="M780,587.5v175c0,43.4-15.4,80.5-46.2,111.3C703,904.6,665.9,920,622.5,920h-455c-43.4,0-80.5-15.4-111.3-46.2C25.4,843,10,805.9,10,762.5v-455c0-43.4,15.4-80.5,46.2-111.3C87,165.4,124.1,150,167.5,150h385c5.1,0,9.3,1.6,12.6,4.9c3.3,3.3,4.9,7.5,4.9,12.6v35c0,5.1-1.6,9.3-4.9,12.6c-3.3,3.3-7.5,4.9-12.6,4.9h-385c-24.1,0-44.7,8.6-61.8,25.7C88.6,262.8,80,283.4,80,307.5v455c0,24.1,8.6,44.7,25.7,61.8c17.1,17.1,37.7,25.7,61.8,25.7h455c24.1,0,44.7-8.6,61.8-25.7c17.1-17.1,25.7-37.7,25.7-61.8v-175c0-5.1,1.6-9.3,4.9-12.6c3.3-3.3,7.5-4.9,12.6-4.9h35c5.1,0,9.3,1.6,12.6,4.9C778.4,578.2,780,582.4,780,587.5L780,587.5z M990,115v280c0,9.5-3.5,17.7-10.4,24.6c-6.9,6.9-15.1,10.4-24.6,10.4c-9.5,0-17.7-3.5-24.6-10.4l-96.3-96.2L477.6,679.9c-3.6,3.6-7.8,5.5-12.6,5.5s-8.9-1.8-12.6-5.5l-62.3-62.3c-3.6-3.6-5.5-7.8-5.5-12.6s1.8-8.9,5.5-12.6l356.6-356.6l-96.2-96.2c-6.9-6.9-10.4-15.1-10.4-24.6s3.5-17.7,10.4-24.6C657.3,83.5,665.5,80,675,80h280c9.5,0,17.7,3.5,24.6,10.4C986.5,97.3,990,105.5,990,115L990,115z"/></g></g>
+              </svg>
+               button to&nbsp;proceed further. We&nbsp;will meet you there!
+            </div>
+        </section>
+        <section class="trainer split-view split-view_direction_row">
+          <div class="trainer__main-panel split-view__panel" id="lesson-1">
+            <div class="actionable-image" id="image-color-code-header" style="grid-area: header;">
+              <div class="actionable-image__buttons">
+                <button class="actionable-image__button" onclick="onImageInfoButtonClick('header-description')" aria-label="">
+                  <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10.75 16.2428C10.75 15.5202 11.2991 15 11.9928 15C12.7009 15 13.25 15.5202 13.25 16.2428C13.25 16.9653 12.7009 17.5 11.9928 17.5C11.2991 17.5 10.75 16.9653 10.75 16.2428ZM12.2248 6.5C10.0678 6.5 8.44995 7.74332 8.44995 9.75061V9.7749C8.44995 10.051 8.67381 10.2749 8.94995 10.2749H9.75319C9.99311 10.2749 10.1876 10.0804 10.1876 9.84049C10.1876 8.717 11.0564 8.11781 12.2248 8.11781C13.3633 8.11781 14.1123 8.717 14.1123 9.57085C14.1123 10.3798 13.6929 10.7543 12.6443 11.2336L12.3447 11.3684C11.4609 11.7579 11.1313 12.3421 11.1313 13.3607V13.5C11.1313 13.7761 11.3552 14 11.6313 14H12.369C12.6451 14 12.869 13.7761 12.869 13.5V13.4656C12.869 13.0162 12.9888 12.8364 13.3483 12.6717L13.6479 12.5368C14.9062 11.9676 15.85 11.2186 15.85 9.58583V9.49595C15.85 7.77328 14.352 6.5 12.2248 6.5Z" fill="currentColor" fill-opacity="0.85"></path>
+                  </svg>
+                </button>
+                <a class="actionable-image__button" href="/lesson-2.html" aria-label="">
+                  <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+                    <g><g><path d="M780,587.5v175c0,43.4-15.4,80.5-46.2,111.3C703,904.6,665.9,920,622.5,920h-455c-43.4,0-80.5-15.4-111.3-46.2C25.4,843,10,805.9,10,762.5v-455c0-43.4,15.4-80.5,46.2-111.3C87,165.4,124.1,150,167.5,150h385c5.1,0,9.3,1.6,12.6,4.9c3.3,3.3,4.9,7.5,4.9,12.6v35c0,5.1-1.6,9.3-4.9,12.6c-3.3,3.3-7.5,4.9-12.6,4.9h-385c-24.1,0-44.7,8.6-61.8,25.7C88.6,262.8,80,283.4,80,307.5v455c0,24.1,8.6,44.7,25.7,61.8c17.1,17.1,37.7,25.7,61.8,25.7h455c24.1,0,44.7-8.6,61.8-25.7c17.1-17.1,25.7-37.7,25.7-61.8v-175c0-5.1,1.6-9.3,4.9-12.6c3.3-3.3,7.5-4.9,12.6-4.9h35c5.1,0,9.3,1.6,12.6,4.9C778.4,578.2,780,582.4,780,587.5L780,587.5z M990,115v280c0,9.5-3.5,17.7-10.4,24.6c-6.9,6.9-15.1,10.4-24.6,10.4c-9.5,0-17.7-3.5-24.6-10.4l-96.3-96.2L477.6,679.9c-3.6,3.6-7.8,5.5-12.6,5.5s-8.9-1.8-12.6-5.5l-62.3-62.3c-3.6-3.6-5.5-7.8-5.5-12.6s1.8-8.9,5.5-12.6l356.6-356.6l-96.2-96.2c-6.9-6.9-10.4-15.1-10.4-24.6s3.5-17.7,10.4-24.6C657.3,83.5,665.5,80,675,80h280c9.5,0,17.7,3.5,24.6,10.4C986.5,97.3,990,105.5,990,115L990,115z"/></g></g>
+                  </svg>
+                </a>
+              </div>
+              <img class="image image_expandable" src="./images/lesson-1/header.png" alt="Issue header block">
+            </div>
+            <div class="actionable-image" id="image-color-code-controls" style="grid-area: controls;">
+              <div class="actionable-image__buttons">
+                <button class="actionable-image__button" onclick="onImageInfoButtonClick('controls-description')" aria-label="">
+                  <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10.75 16.2428C10.75 15.5202 11.2991 15 11.9928 15C12.7009 15 13.25 15.5202 13.25 16.2428C13.25 16.9653 12.7009 17.5 11.9928 17.5C11.2991 17.5 10.75 16.9653 10.75 16.2428ZM12.2248 6.5C10.0678 6.5 8.44995 7.74332 8.44995 9.75061V9.7749C8.44995 10.051 8.67381 10.2749 8.94995 10.2749H9.75319C9.99311 10.2749 10.1876 10.0804 10.1876 9.84049C10.1876 8.717 11.0564 8.11781 12.2248 8.11781C13.3633 8.11781 14.1123 8.717 14.1123 9.57085C14.1123 10.3798 13.6929 10.7543 12.6443 11.2336L12.3447 11.3684C11.4609 11.7579 11.1313 12.3421 11.1313 13.3607V13.5C11.1313 13.7761 11.3552 14 11.6313 14H12.369C12.6451 14 12.869 13.7761 12.869 13.5V13.4656C12.869 13.0162 12.9888 12.8364 13.3483 12.6717L13.6479 12.5368C14.9062 11.9676 15.85 11.2186 15.85 9.58583V9.49595C15.85 7.77328 14.352 6.5 12.2248 6.5Z" fill="currentColor" fill-opacity="0.85"></path>
+                  </svg>
+                </button>
+                <a class="actionable-image__button" href="/lesson-3.html" aria-label="">
+                  <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+                    <g><g><path d="M780,587.5v175c0,43.4-15.4,80.5-46.2,111.3C703,904.6,665.9,920,622.5,920h-455c-43.4,0-80.5-15.4-111.3-46.2C25.4,843,10,805.9,10,762.5v-455c0-43.4,15.4-80.5,46.2-111.3C87,165.4,124.1,150,167.5,150h385c5.1,0,9.3,1.6,12.6,4.9c3.3,3.3,4.9,7.5,4.9,12.6v35c0,5.1-1.6,9.3-4.9,12.6c-3.3,3.3-7.5,4.9-12.6,4.9h-385c-24.1,0-44.7,8.6-61.8,25.7C88.6,262.8,80,283.4,80,307.5v455c0,24.1,8.6,44.7,25.7,61.8c17.1,17.1,37.7,25.7,61.8,25.7h455c24.1,0,44.7-8.6,61.8-25.7c17.1-17.1,25.7-37.7,25.7-61.8v-175c0-5.1,1.6-9.3,4.9-12.6c3.3-3.3,7.5-4.9,12.6-4.9h35c5.1,0,9.3,1.6,12.6,4.9C778.4,578.2,780,582.4,780,587.5L780,587.5z M990,115v280c0,9.5-3.5,17.7-10.4,24.6c-6.9,6.9-15.1,10.4-24.6,10.4c-9.5,0-17.7-3.5-24.6-10.4l-96.3-96.2L477.6,679.9c-3.6,3.6-7.8,5.5-12.6,5.5s-8.9-1.8-12.6-5.5l-62.3-62.3c-3.6-3.6-5.5-7.8-5.5-12.6s1.8-8.9,5.5-12.6l356.6-356.6l-96.2-96.2c-6.9-6.9-10.4-15.1-10.4-24.6s3.5-17.7,10.4-24.6C657.3,83.5,665.5,80,675,80h280c9.5,0,17.7,3.5,24.6,10.4C986.5,97.3,990,105.5,990,115L990,115z"/></g></g>
+                  </svg>
+                </a>
+              </div>
+              <img class="image image_expandable" src="./images/lesson-1/controls.png" alt="Issue controls block">
+            </div>
+            <div style="grid-area: issue-column-left;">
+              <div class="actionable-image" id="image-color-code-details">
+                <div class="actionable-image__buttons">
+                  <button class="actionable-image__button" onclick="onImageInfoButtonClick('details-description')" aria-label="">
+                    <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10.75 16.2428C10.75 15.5202 11.2991 15 11.9928 15C12.7009 15 13.25 15.5202 13.25 16.2428C13.25 16.9653 12.7009 17.5 11.9928 17.5C11.2991 17.5 10.75 16.9653 10.75 16.2428ZM12.2248 6.5C10.0678 6.5 8.44995 7.74332 8.44995 9.75061V9.7749C8.44995 10.051 8.67381 10.2749 8.94995 10.2749H9.75319C9.99311 10.2749 10.1876 10.0804 10.1876 9.84049C10.1876 8.717 11.0564 8.11781 12.2248 8.11781C13.3633 8.11781 14.1123 8.717 14.1123 9.57085C14.1123 10.3798 13.6929 10.7543 12.6443 11.2336L12.3447 11.3684C11.4609 11.7579 11.1313 12.3421 11.1313 13.3607V13.5C11.1313 13.7761 11.3552 14 11.6313 14H12.369C12.6451 14 12.869 13.7761 12.869 13.5V13.4656C12.869 13.0162 12.9888 12.8364 13.3483 12.6717L13.6479 12.5368C14.9062 11.9676 15.85 11.2186 15.85 9.58583V9.49595C15.85 7.77328 14.352 6.5 12.2248 6.5Z" fill="currentColor" fill-opacity="0.85"></path>
+                    </svg>
+                  </button>
+                  <a class="actionable-image__button" href="/lesson-4.html" aria-label="">
+                    <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+                      <g><g><path d="M780,587.5v175c0,43.4-15.4,80.5-46.2,111.3C703,904.6,665.9,920,622.5,920h-455c-43.4,0-80.5-15.4-111.3-46.2C25.4,843,10,805.9,10,762.5v-455c0-43.4,15.4-80.5,46.2-111.3C87,165.4,124.1,150,167.5,150h385c5.1,0,9.3,1.6,12.6,4.9c3.3,3.3,4.9,7.5,4.9,12.6v35c0,5.1-1.6,9.3-4.9,12.6c-3.3,3.3-7.5,4.9-12.6,4.9h-385c-24.1,0-44.7,8.6-61.8,25.7C88.6,262.8,80,283.4,80,307.5v455c0,24.1,8.6,44.7,25.7,61.8c17.1,17.1,37.7,25.7,61.8,25.7h455c24.1,0,44.7-8.6,61.8-25.7c17.1-17.1,25.7-37.7,25.7-61.8v-175c0-5.1,1.6-9.3,4.9-12.6c3.3-3.3,7.5-4.9,12.6-4.9h35c5.1,0,9.3,1.6,12.6,4.9C778.4,578.2,780,582.4,780,587.5L780,587.5z M990,115v280c0,9.5-3.5,17.7-10.4,24.6c-6.9,6.9-15.1,10.4-24.6,10.4c-9.5,0-17.7-3.5-24.6-10.4l-96.3-96.2L477.6,679.9c-3.6,3.6-7.8,5.5-12.6,5.5s-8.9-1.8-12.6-5.5l-62.3-62.3c-3.6-3.6-5.5-7.8-5.5-12.6s1.8-8.9,5.5-12.6l356.6-356.6l-96.2-96.2c-6.9-6.9-10.4-15.1-10.4-24.6s3.5-17.7,10.4-24.6C657.3,83.5,665.5,80,675,80h280c9.5,0,17.7,3.5,24.6,10.4C986.5,97.3,990,105.5,990,115L990,115z"/></g></g>
+                    </svg>
+                  </a>
+                </div>
+                <img class="image image_expandable" src="./images/lesson-1/details.png" alt="Issue details block">
+              </div>
+            </div>
+            <div style="grid-area: issue-column-right;">        
+              <div class="actionable-image" id="image-color-code-people">
+                <div class="actionable-image__buttons">
+                  <button class="actionable-image__button" onclick="onImageInfoButtonClick('details-people')" aria-label="">
+                    <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12ZM20 12C20 16.4183 16.4183 20 12 20C7.58172 20 4 16.4183 4 12C4 7.58172 7.58172 4 12 4C16.4183 4 20 7.58172 20 12ZM10.75 16.2428C10.75 15.5202 11.2991 15 11.9928 15C12.7009 15 13.25 15.5202 13.25 16.2428C13.25 16.9653 12.7009 17.5 11.9928 17.5C11.2991 17.5 10.75 16.9653 10.75 16.2428ZM12.2248 6.5C10.0678 6.5 8.44995 7.74332 8.44995 9.75061V9.7749C8.44995 10.051 8.67381 10.2749 8.94995 10.2749H9.75319C9.99311 10.2749 10.1876 10.0804 10.1876 9.84049C10.1876 8.717 11.0564 8.11781 12.2248 8.11781C13.3633 8.11781 14.1123 8.717 14.1123 9.57085C14.1123 10.3798 13.6929 10.7543 12.6443 11.2336L12.3447 11.3684C11.4609 11.7579 11.1313 12.3421 11.1313 13.3607V13.5C11.1313 13.7761 11.3552 14 11.6313 14H12.369C12.6451 14 12.869 13.7761 12.869 13.5V13.4656C12.869 13.0162 12.9888 12.8364 13.3483 12.6717L13.6479 12.5368C14.9062 11.9676 15.85 11.2186 15.85 9.58583V9.49595C15.85 7.77328 14.352 6.5 12.2248 6.5Z" fill="currentColor" fill-opacity="0.85"></path>
+                    </svg>
+                  </button>
+                  <a class="actionable-image__button" href="/lesson-5.html" aria-label="">
+                    <svg class="actionable-image__icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" fill="currentColor">
+                      <g><g><path d="M780,587.5v175c0,43.4-15.4,80.5-46.2,111.3C703,904.6,665.9,920,622.5,920h-455c-43.4,0-80.5-15.4-111.3-46.2C25.4,843,10,805.9,10,762.5v-455c0-43.4,15.4-80.5,46.2-111.3C87,165.4,124.1,150,167.5,150h385c5.1,0,9.3,1.6,12.6,4.9c3.3,3.3,4.9,7.5,4.9,12.6v35c0,5.1-1.6,9.3-4.9,12.6c-3.3,3.3-7.5,4.9-12.6,4.9h-385c-24.1,0-44.7,8.6-61.8,25.7C88.6,262.8,80,283.4,80,307.5v455c0,24.1,8.6,44.7,25.7,61.8c17.1,17.1,37.7,25.7,61.8,25.7h455c24.1,0,44.7-8.6,61.8-25.7c17.1-17.1,25.7-37.7,25.7-61.8v-175c0-5.1,1.6-9.3,4.9-12.6c3.3-3.3,7.5-4.9,12.6-4.9h35c5.1,0,9.3,1.6,12.6,4.9C778.4,578.2,780,582.4,780,587.5L780,587.5z M990,115v280c0,9.5-3.5,17.7-10.4,24.6c-6.9,6.9-15.1,10.4-24.6,10.4c-9.5,0-17.7-3.5-24.6-10.4l-96.3-96.2L477.6,679.9c-3.6,3.6-7.8,5.5-12.6,5.5s-8.9-1.8-12.6-5.5l-62.3-62.3c-3.6-3.6-5.5-7.8-5.5-12.6s1.8-8.9,5.5-12.6l356.6-356.6l-96.2-96.2c-6.9-6.9-10.4-15.1-10.4-24.6s3.5-17.7,10.4-24.6C657.3,83.5,665.5,80,675,80h280c9.5,0,17.7,3.5,24.6,10.4C986.5,97.3,990,105.5,990,115L990,115z"/></g></g>
+                    </svg>
+                  </a>
+                </div> 
+               <img class="image image_expandable" src="./images/lesson-1/people.png" alt="Issue people block">
+              </div>
+            </div>
+          </div>
+          <section class="trainer__description-panel split-view__panel">
+            <div class="paragraph">
+              <p class="theory__paragraph">Elements description will pop up here 👇</p>
+            </div>
+          </section>
+          <div class="resizer"></div>
+        </section>
+      </div>
+    </main>
+    <div class="side-menu">
+      <div class="side-menu__container">
+        <div class="course-navigation">
+          <div class="course-navigation__header">
+            <h2 class="course-navigation__title">Onboarding</h2>
+            <nav>
+              <ul class="course-navigation__list">
+                <li class="course-navigation__list-item course-navigation__list-item_active">
+                  <a class="course-navigation__link">Hello, hi there, welcome 👋</a>
+                </li>
+                <li class="course-navigation__list-item">
+                  <a class="course-navigation__link" href="./lesson-2.html">Heads Up, Header!</a>
+                </li>
+                <li class="course-navigation__list-item">
+                  <a class="course-navigation__link" href="./lesson-3.html">Command Central</a>
+                </li>
+                <li class="course-navigation__list-item">
+                  <a class="course-navigation__link" href="./lesson-4.html">We need more details!</a>
+                </li>
+                <li class="course-navigation__list-item">
+                  <a class="course-navigation__link" href="./lesson-5.html">It's All About the People</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="chat-bot-toggle"></button>
+  <div class="chat-bot">
+    <div class="chat-bot__header">
+      <img class="chat-bot__recipient-avatar" src="./images/recipient-avatar.jpg">
+      <span class="chat-bot__recipient-name">I am Peon veri smarte AI!</span>
+    </div>
+    <div class="chat-bot__body">
+    </div>
+  </div>
+  <div class="popup">
+    <div class="popup__container">
+      <figure class="popup__figure">
+        <img class="popup__image" src="#" alt="">
+        <figcaption class="popup__image-caption"></figcaption>
+      </figure>
+    </div>
+    <button class="popup__close-button" type="button" aria-label="Close popup"></button>
+  </div>
+  <template id="trainer-description-template">
+    <div class="trainer__description-wrapper" style="max-width: 100%;">
+      <h2 class="theory__subtitle highlighted"></h2>
+      <div class="paragraph"></div>
+    </div>
+  </template>
+  <template id="chat-bot-agent-message">
+    <div class="chat-bot__message-group chat-bot__message-group_type_agent">
+      <span class="chat-bot__recipient-name chat-bot__recipient-name_place_message-group">Peon</span>
+      <img 
+        class="chat-bot__recipient-avatar chat-bot__recipient-avatar_place_message-group"
+        src="./images/recipient-avatar.jpg"
+      >
+      <div class="chat-bot__message-box">
+        <p class="chat-bot__message"></p>
+      </div>
+    </div>
+  </template>
+  <template id="chat-bot-user-message">
+    <div class="chat-bot__message-group chat-bot__message-group_type_user">
+      <p class="chat-bot__message"></p>
+    </div>
+  </template>
+  <template id="chat-bot-options">
+    <div class="chat-bot__message-group chat-bot__message-group_type_user">
+      <button class="chat-bot__button" id="chat-bot-support">Support</button>
+      <button class="chat-bot__button" id="chat-bot-help">Help</button>
+      <button class="chat-bot__button" id="chat-bot-faq">FAQ</button>
+    </div>
+  </template>
+  <audio id="i-can-do-that">
+    <source src="./audios/i-can-do-that.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="work-work">
+    <source src="./audios/work-work.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="ugh">
+    <source src="./audios/ugh.ogg" type="audio/ogg">
+  </audio>
+  <audio id="me-busy">
+    <source src="./audios/me-busy.ogg" type="audio/ogg">
+  </audio>
+  <audio id="work-complete">
+    <source src="./audios/work-complete.mp3" type="audio/mpeg">
+  </audio>
+  <script src="scripts/simulator.js"></script>
+</body>

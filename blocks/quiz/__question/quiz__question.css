@@ -1,0 +1,11 @@
+.quiz__question {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+@media screen and (max-width: 2000px) {
+  .quiz__question {
+    font-size: 16px;
+  }
+}

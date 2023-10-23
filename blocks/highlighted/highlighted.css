@@ -1,0 +1,29 @@
+.highlighted {
+  display: inline-block;
+  padding: 0 3px;
+  font-weight: 500;
+  position: relative;
+}
+
+.highlighted::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  width: 100%;
+  height: 35%;
+  background-color: rgba(228, 47, 47, 0.25);
+  z-index: -1;
+}
+
+.controls-accent.highlighted::before {
+  background-color: rgba(210, 229, 208, .8);
+}
+
+.details-accent.highlighted::before {
+  background-color: rgba(239, 213, 147, .7);
+}
+
+.people-accent.highlighted::before {
+  background-color: rgba(121, 169, 245, .4);
+}

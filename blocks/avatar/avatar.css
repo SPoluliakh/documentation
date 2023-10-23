@@ -1,0 +1,10 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  /* TODO: find better solution */
+  margin-right: 7px;
+  border-radius: 50%;
+  overflow: hidden;
+}

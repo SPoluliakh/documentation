@@ -1,0 +1,4 @@
+.breadcrumb__item + .breadcrumb__item:before {
+    content: "/";
+    padding: 0 10px;
+}

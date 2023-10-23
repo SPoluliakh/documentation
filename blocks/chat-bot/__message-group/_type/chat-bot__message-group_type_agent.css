@@ -1,0 +1,8 @@
+.chat-bot__message-group_type_agent {
+  display: grid;
+  grid-template-areas: 
+  "avatar name"
+  "avatar messageBox";
+  grid-template-columns: 35px 235px;
+  column-gap: 10px;
+}

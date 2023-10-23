@@ -1,0 +1,10 @@
+.drop-zone__input-label {
+  color: #0052CC;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.drop-zone__input-label:hover {
+  text-decoration: underline;
+}

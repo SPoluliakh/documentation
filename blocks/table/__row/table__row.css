@@ -1,0 +1,12 @@
+.table__row {
+  display: flex;
+}
+
+.table__row:not(:last-child) {
+  margin: 0 0 8px;
+}
+
+.table_columns_multiple .table__row {
+  flex-basis: calc(50% - 5px);
+  margin-right: 5px;
+}

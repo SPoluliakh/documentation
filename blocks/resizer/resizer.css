@@ -1,0 +1,9 @@
+.resizer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #e0e0e0;
+  cursor: ew-resize;
+}

@@ -1,0 +1,12 @@
+.chat-bot__message {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.chat-bot__message.label {
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #242424;
+}

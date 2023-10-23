@@ -1,0 +1,29 @@
+.attachments-options__option-label {
+  display: block;
+  position: relative;
+  padding: 3px 10px 3px 20px;
+  text-decoration: none;
+}
+
+.attachments-options__option-label:hover,
+.attachments-options__option-label:focus-visible,
+.attachments-options__option:focus-visible + .attachments-options__option-label  {
+  color: #fff;
+  background-color: #40331e;
+}
+
+.attachments-options__option:checked + .attachments-options__option-label::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #40331e;
+}
+
+.attachments-options__option:checked + .attachments-options__option-label:hover::before {
+  background-color: #fff;
+}

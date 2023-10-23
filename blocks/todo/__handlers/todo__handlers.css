@@ -1,0 +1,9 @@
+.todo__handlers {
+  display: grid;
+  grid-template-areas: 
+  "progress todo-filters-handler todo-file-handler"
+  "todo-filters todo-filters todo-filters";
+  grid-template-columns: 1fr min-content min-content;
+  grid-row-gap: 10px;
+  padding: 10px 0;
+}
